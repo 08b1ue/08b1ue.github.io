@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///A:/%E9%A1%B9%E7%9B%AE/%E7%BD%91%E7%AB%99/portfolio/src/components/Reveal.tsx"],"sourcesContent":["\"use client\";\n\nimport { motion } from \"motion/react\";\n\n/** 滚动到视口时淡入上浮。包住任何内容即可使用。 */\nexport default function Reveal({\n  children,\n  delay = 0,\n  className,\n}: {\n  children: React.ReactNode;\n  delay?: number;\n  className?: string;\n}) {\n  return (\n    <motion.div\n      className={className}\n      initial={{ opacity: 0, y: 32 }}\n      whileInView={{ opacity: 1, y: 0 }}\n      viewport={{ once: true, margin: \"-80px\" }}\n      transition={{ duration: 0.6, delay, ease: [0.22, 1, 0.36, 1] }}\n    >\n      {children}\n    </motion.div>\n  );\n}\n"],"names":["Reveal","children","delay","className","div","initial","opacity","y","whileInView","viewport","once","margin","transition","duration","ease"],"mappings":";;;;;AAEA;AAFA;;;AAKe,SAASA,OAAO,EAC7BC,QAAQ,EACRC,QAAQ,CAAC,EACTC,SAAS,EAKV;IACC,qBACE,6LAAC,2KAAM,CAACC,GAAG;QACTD,WAAWA;QACXE,SAAS;YAAEC,SAAS;YAAGC,GAAG;QAAG;QAC7BC,aAAa;YAAEF,SAAS;YAAGC,GAAG;QAAE;QAChCE,UAAU;YAAEC,MAAM;YAAMC,QAAQ;QAAQ;QACxCC,YAAY;YAAEC,UAAU;YAAKX;YAAOY,MAAM;gBAAC;gBAAM;gBAAG;gBAAM;aAAE;QAAC;kBAE5Db;;;;;;AAGP;KApBwBD"}}]
-}
