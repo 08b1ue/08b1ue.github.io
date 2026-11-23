@@ -1,7 +1,7 @@
-:HL["/_next/static/chunks/16zwq1h3efq2g.css","style"]
+:HL["/_next/static/chunks/3n94vej52j0fu.css","style"]
 :HL["/_next/static/media/07c7676b89ed2778-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/fecad25956209f1c-s.p.2wevs-sv5kmpm.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"chromatic-spirit","s":[]},"h":65632,"c":"$Q3"}]]
 1:[["children",{"s":"projects","h":131168,"c":"$Q2"}]]
-0:{"b":"y_e-96oURBkk5vUfMWN-q","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
+0:{"b":"Qh9AF36ETK80YnAGW0Dr5","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
